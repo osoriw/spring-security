@@ -7,13 +7,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDataJpaApplication implements CommandLineRunner {
+public class SpringSecurityApplication implements CommandLineRunner {
 
 	@Autowired
 	IUploadFileService uploadFileService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootDataJpaApplication.class, args);
+		SpringApplication.run(SpringSecurityApplication.class, args);
 	}
 
 	@Override
